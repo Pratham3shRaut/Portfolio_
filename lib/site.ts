@@ -4,7 +4,7 @@ export const site = {
   role: "Full Stack Developer",
   email: "prathameshrautanj@gmail.com",
   phone: "+91 7397919131",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://portfolio-black-nine-39.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://prathameshportfolio.vercel.app",
   location: "Pune, Maharashtra",
   socials: {
     github: "https://github.com/Pratham3shRaut",
