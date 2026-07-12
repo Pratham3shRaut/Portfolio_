@@ -34,7 +34,7 @@ export function Hero() {
           <img src="/hero.jpg" alt="Prathamesh Raut" width={44} height={44} onError={() => setHasPortrait(false)} className="h-11 w-11 shrink-0 rounded-full border hairline object-cover shadow-md sm:hidden" />
         )}
       </motion.div>
-      <motion.h1 style={{ y: titleY, opacity: titleOpacity }} className="balance max-w-[1100px] font-display text-[clamp(4rem,9vw,8.4rem)] font-semibold leading-[.84] tracking-[-.072em] lg:max-w-[820px]">
+      <motion.h1 style={{ y: titleY, opacity: titleOpacity }} className="balance max-w-[1000px] font-display text-[clamp(3.6rem,7.5vw,7.2rem)] font-semibold leading-[.84] tracking-[-.072em] lg:max-w-[720px]">
         <span className="hero-mask inline-block overflow-hidden"><motion.span initial={{ y: "110%" }} animate={{ y: 0 }} transition={{ delay: .08, duration: .9, ease: [.16,1,.3,1] }} className="hero-line inline-block">I build scalable</motion.span></span><br className="hidden sm:block"/>
         <span className="hero-mask inline-block overflow-hidden"><motion.span initial={{ y: "110%" }} animate={{ y: 0 }} transition={{ delay: .16, duration: .9, ease: [.16,1,.3,1] }} className="hero-line inline-block">products,</motion.span></span><br/>
         <span className="hero-mask inline-block overflow-hidden"><motion.span initial={{ y: "110%" }} animate={{ y: 0 }} transition={{ delay: .22, duration: .9, ease: [.16,1,.3,1] }} className="hero-line inline-block"><em className="font-medium not-italic text-signal">end to end.</em></motion.span></span>
