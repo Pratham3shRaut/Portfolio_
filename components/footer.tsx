@@ -7,7 +7,7 @@ export function Footer() {
   return <footer id="contact" className="bg-ink py-20 text-canvas md:py-28">
     <div className="frame">
       <p className="font-mono text-xs uppercase tracking-[.18em] text-canvas/60">Have a difficult product problem?</p>
-      <a href={`mailto:${site.email}`} className="group mt-7 flex items-end justify-between border-b border-canvas/30 pb-8">
+      <a href={site.socials.whatsapp} target="_blank" rel="noreferrer" className="group mt-7 flex items-end justify-between border-b border-canvas/30 pb-8">
         <span className="max-w-5xl font-display text-[clamp(3rem,8vw,8rem)] leading-[.9] tracking-[-.055em]">Let’s make it clear.</span>
         <Arrow className="mb-2 hidden h-14 w-14 transition-transform duration-500 group-hover:translate-x-3 md:block" />
       </a>

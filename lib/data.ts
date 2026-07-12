@@ -59,6 +59,8 @@ export const skillGroups = [
   { label: "Backend", items: ["Spring Boot", "Node.js", "Express.js", "FastAPI", "REST APIs", "OOP", "MVC"] },
   { label: "Data & ORM", items: ["PostgreSQL", "MySQL", "JPA", "Hibernate"] },
   { label: "Delivery", items: ["Docker", "GitHub Actions", "AWS", "Azure", "Linux", "Postman"] },
+  { label: "Data & Web Scraping", items: ["BeautifulSoup", "Selenium", "Scrapy", "Regex", "spaCy", "NLP", "Pandas", "NumPy"] },
+  { label: "AI/ML", items: ["TensorFlow", "Keras", "scikit-learn", "OpenCV", "LLM-powered automation"] },
 ];
 
 export const certifications = [
@@ -68,18 +70,11 @@ export const certifications = [
 
 export const moreProjects = [
   {
-    title: "NASA APOD Explorer",
-    description: "A mission-control dashboard for exploring NASA’s Astronomy Picture of the Day content.",
-    stack: ["JavaScript", "NASA API", "Dashboard UI"],
-    code: "https://github.com/Pratham3shRaut/nasa-apod-explorer",
-    image: "https://opengraph.githubassets.com/portfolio/Pratham3shRaut/nasa-apod-explorer",
-  },
-  {
-    title: "Virtual Mouse",
-    description: "A computer-vision virtual mouse that translates tracked hand movements into cursor actions in real time.",
-    stack: ["Python", "OpenCV", "MediaPipe"],
-    code: "https://github.com/Pratham3shRaut/Virtual-Mouse-using-OpenCV-main",
-    image: "https://opengraph.githubassets.com/portfolio/Pratham3shRaut/Virtual-Mouse-using-OpenCV-main",
+    title: "DecisionLog",
+    description: "A Slack agent that detects decisions in team conversation and documents them automatically — built for the Slack Agent Builder Challenge.",
+    stack: ["FastAPI", "Slack Bolt", "Google Gemini", "MCP", "Postgres"],
+    code: "https://github.com/Pratham3shRaut/decisionlog-agent",
+    image: "/projects/decisionlog.png",
   },
   {
     title: "Movie Explorer",
@@ -87,14 +82,14 @@ export const moreProjects = [
     stack: ["JavaScript", "HTML", "CSS", "Movie API"],
     code: "https://github.com/Pratham3shRaut/movie-app",
     live: "https://movie-app-two-brown.vercel.app",
-    image: "https://opengraph.githubassets.com/portfolio/Pratham3shRaut/movie-app",
+    image: "/projects/movie-explorer.png",
   },
   {
     title: "Live Code Editor",
     description: "A browser-based HTML, CSS, and JavaScript playground for writing code and previewing changes instantly.",
     stack: ["HTML", "CSS", "JavaScript"],
     code: "https://github.com/Pratham3shRaut/Live_Code_Editor",
-    live: "https://live-code-editor-sand.vercel.app",
-    image: "https://opengraph.githubassets.com/portfolio/Pratham3shRaut/Live_Code_Editor",
+    live: "https://live-code-editor-sand.vercel.app/",
+    image: "/projects/live-code-editor.png",
   },
 ] as const;
